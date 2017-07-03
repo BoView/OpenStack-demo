@@ -1,1 +1,1 @@
-# openstack-demo
+# openstack_demo
