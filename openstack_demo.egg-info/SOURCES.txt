@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+openstack-demo/__init__.py
+openstack_demo.egg-info/PKG-INFO
+openstack_demo.egg-info/SOURCES.txt
+openstack_demo.egg-info/dependency_links.txt
+openstack_demo.egg-info/entry_points.txt
+openstack_demo.egg-info/not-zip-safe
+openstack_demo.egg-info/pbr.json
+openstack_demo.egg-info/requires.txt
+openstack_demo.egg-info/top_level.txt
