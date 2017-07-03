@@ -6,4 +6,4 @@ class RootController(rest.RestController):
     
     @wsme_pecan.wsexpose(wtypes.text)
     def get(self):
-        return "openstack_demo"
+        return "Hello,SunLinBo!!!"

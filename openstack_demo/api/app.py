@@ -12,8 +12,7 @@ def setup_app():
     app_conf = dict(config.app)
     app = pecan.make_app(
         app_conf.pop('root'),
-        logging = getattr(config,'logging',{}),
+        logging=getattr(config,'logging',{}),
         **app_conf
     )
-
     return app

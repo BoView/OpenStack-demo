@@ -7,9 +7,9 @@ def main():
     port = 8080
 
     application = app.setup_app()
-    srv = simple_server.make_server(host,port,application)
+    srv = simple_server.make_server(host, port, application)
 
-    srv.server_forever()
+    srv.serve_forever()
 
 if __name__ == '__main__':
     main()
