@@ -1,7 +1,7 @@
 from pecan import rest
 from wsme import types as wtypes
 # import wsmeext.pecan as wsme_pecan
-#add api/expose.py and import
+#add api/expose.py and import expose
 from openstack_demo.api import expose
 from openstack_demo.api.controllers.v1 import controller as v1_controller
 
